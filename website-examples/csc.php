@@ -45,7 +45,7 @@
       </h2>
       <p>Child Star Creations is a company that is a source for products for child education, activities and early development. This was a new startup company that wanted to take their paper catalog product ordering based service to the web with a complete online store showcasing all the products they have available.
       </p>
-      <p>This was a brand new design created based on the company's colors logo and client input. The shopping cart aspect of the site was created using <a href="http://www.aspdotnetstorefront.com/">AspDotNetStoreFront software</a>. The default theme of the software was updated with the Child Star Creation colors and logos. Products, photos and pricing were added through their Admin access to the store when it was installed on the hosting server. Payment can be made for products through <a href="https://www.paypal.com/">PayPal</a> or any major credit card.
+      <p>This was a brand new design created based on the company's colors logo and client input. The shopping cart aspect of the site was created using <a href="http://www.aspdotnetstorefront.com/">AspDotNetStoreFront software</a>. The default theme of the software was updated with the Child Star Creation colors and logos. Products, photos and pricing were added through their Admin access to the store when it was installed on the hosting server. Payment can be made for products through <a href="https://www.paypal.com/" target="_blank">PayPal</a> or any major credit card.
         <br /><br />
         <strong>Visit their website >></strong> <a target="_blank" href="http://www.childstarcreations.com/">Child Star Creations</a>
       </p>
