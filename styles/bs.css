@@ -1,0 +1,369 @@
+/* css for SammutCode*/
+
+/* begin styles to "normalize" elements accross browsers */
+body, div, ul, li, td {
+	font-size: 100%;
+	font-family: Tahoma, Geneva, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-size: 100%;
+	font-family: Tahoma, Geneva, sans-serif;
+}
+
+div, span, img, form, h1, h2, h3, h4, h5, h6 {
+	margin: 0px;
+	padding: 0px;
+	background-color: transparent;
+	border: 0px;
+}
+
+table{
+	border: 0px;
+}
+
+a:link{color: #995522;}
+a:visited{color: #995522;}
+
+h1 a:link{text-decoration: none;}
+h1 a:hover { text-decoration: none;}
+h1 a:visited{text-decoration: none;}
+
+/* end of "normalizing" styles */
+
+/*@font-face declaration*/
+@font-face {
+    font-family: 'VollkornRegular';
+    src: url('../_fonts/Vollkorn-Regular-webfont.eot');
+    src: url('../_fonts/Vollkorn-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../_fonts/Vollkorn-Regular-webfont.woff') format('woff'),
+         url('../_fonts/Vollkorn-Regular-webfont.ttf') format('truetype'),
+         url('../_fonts/Vollkorn-Regular-webfont.svg#VollkornRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'VollkornBold';
+    src: url('../_fonts/Vollkorn-Bold-webfont.eot');
+    src: url('../_fonts/Vollkorn-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../_fonts/Vollkorn-Bold-webfont.woff') format('woff'),
+         url('../_fonts/Vollkorn-Bold-webfont.ttf') format('truetype'),
+         url('../_fonts/Vollkorn-Bold-webfont.svg#VollkornBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* body styles */
+body{
+	font-family: Tahoma, Geneva, sans-serif;
+	background: url("../images/dash_bkg.gif");
+	font-size: 12px;
+	line-height: 1.5em;
+	margin: 0px 0px 0px 0px;
+	color: #000;
+}
+
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col-13, .col-14, .col-15, .col-16, .col-17, .col-18, .col-19, .col-20, .col-21, .col-22, .col-23, .col-24, .col {
+  float: left;
+  margin-right: 20px;
+  display: inline;
+}
+.last {
+  margin-right: 0;
+  margin-bottom: 0;
+}
+
+#container {
+  width: 960px;
+	position: relative;
+	/* The margin attribute centers the container */
+	margin: 0pt auto;
+}
+
+/* --- Drop Shadow --- */
+#content{
+  display: block;
+	float: left;
+	background-color:#fff;
+	margin: 0px 0px 0px 0px;
+	width: 960px;
+	-moz-box-shadow: 0px 0px 15px #888888; /* FF3.5+ */
+  -webkit-box-shadow: 0px 0px 15px #888888; /* Saf3.0+, Chrome */
+          box-shadow: 0px 0px 15px #888888; /* Opera 10.5, IE 9.0 */
+}
+
+/* --- Gradient top to bottom --- */
+#top-gradient{
+	display: block;
+	float: left;
+	width: 960px;
+	background-image: -moz-linear-gradient(top, #E4E4E4, #ffffff); /* FF3.6 */
+  background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #E4E4E4),color-stop(1, #ffffff)); /* Saf4+, Chrome */
+            filter:  progid:DXImageTransform.Microsoft.gradient(startColorStr='#E4E4E4', EndColorStr='#ffffff'); /* IE6,IE7 */
+            -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#E4E4E4', EndColorStr='#ffffff')"; /* IE8 */
+}
+
+/* --- header --- */
+#header{
+	display: block;
+	float: left;
+	width: 960px;
+	height: 100px;
+}
+
+#header-logo{
+  margin: 72px 0px 0px 67px;
+  position: relative;
+  height: 99px;
+	}
+
+#header-logo h1 {
+  font-family: VollkornBold, arial, serif;
+  float: left;
+  display: block;
+  font-size: 45px;
+  color: #000;
+  text-decoration: none;
+}
+
+#header-logo a:link, #header-logo a:hover, #header-logo a:visited{
+  color: #000;
+  text-decoration: none;
+}
+
+#header-contact{
+  position: absolute;
+  top: 76px;
+  right: 58px;
+}
+
+#dash-divder{
+  display: block;
+	float: left;
+	background-color:#fff;
+	margin: 0px 0px 0px 60px;
+	height: 12px;
+	width: 846px;
+	background: url("../images/header-dash-line.gif");
+}
+
+/* --- Title Area --- */
+#title{
+	display: block;
+	float: left;
+	width: 846px;
+	height: 121px;
+}
+
+#title-hello{
+  float: left;
+  margin: 66px 0px 0px 66px;
+  position: relative;
+  width: 529px;
+  height: 79px;
+	}
+
+#title-hello h1 {
+  font-family: VollkornBold, Georgia, Times, serif;
+  float: left;
+  text-decoration: none;
+  display: block;
+  font-size: 74px;
+  color: #999;
+  
+}
+
+#title-selected{
+  float: left;
+  margin: 78px 0px 0px 0px;
+  position: relative;
+  height: 79px;
+}
+
+#title-selected h1 {
+  font-family: VollkornRegular, Georgia, Times, serif;
+  float: left;
+  text-decoration: none;
+  display: block;
+  font-size: 24px;
+  color: #999;
+}
+
+/* --- leftside --- */
+#leftside{
+  display: block;
+  float: left;
+  font-size: 12px;
+  margin: 0px 5px 20px 60px;
+  width: 532px;
+  /*background: #80BFFF;*/
+  position: relative;
+}
+
+#leftside-copy{
+  display: block;
+  float: left;
+  font-size: 12px;
+  margin: 0px 50px 0px 8px;
+  position: relative;
+}
+
+#leftside-copy h2{
+  font-family: VollkornRegular, Georgia, Times, serif;
+  font-size: 23px;
+  font-weight: bold;
+  /*font-size: 20px;*/
+  margin: 1.5em 0 .5em 0;
+  line-height: 125%
+}
+
+#leftside-copy a:link{
+  color: #995522;
+	text-decoration: none;
+}
+
+#leftside-copy a:hover{
+  color: #000;
+	border-bottom: 1px dashed #000;
+}
+
+/* --- sidebar --- */
+#sidebar{
+  display: block;
+  float: left;
+  width: 309px;
+  /*background: #8FC990;*/
+  position: relative;
+}
+
+#sidebar .thumb {
+	
+}
+
+#sidebar .thumb:hover {
+  -webkit-transform: scale(1.03);
+  -moz-transform: scale(1.03);
+  transform: scale(1.03);
+}
+
+.side-example{
+  margin: 0px 0px 0px 0px;
+  position: relative;
+  height: 138px;
+}
+
+.side-example-home{
+  margin: 0px 0px 0px 0px;
+  position: relative;
+  height: 138px;
+}
+
+#sidebar-contact{
+  display: block;
+  float: left;
+  font-size: 12px;
+  margin: 0px 0px 30px 0px;
+  position: relative;
+}
+
+#sidebar-contact a:link{
+  font-weight: bold;
+	text-decoration: none;
+}
+
+#sidebar-contact a:hover{
+  color: #000;
+  border-bottom: 1px dashed #000;
+}
+
+/* --- Selected Work--- */
+#selected{
+  display: block;
+  float: left;
+  font-size: 12px;
+  margin: 0px 5px 20px 60px;
+  width: 841px;
+  /*background: #80BFFF;*/
+  position: relative;
+}
+
+#selected h2{
+  font-size: 18px;
+}
+
+#selected h3{
+  text-align:center;
+}
+
+#selected-copy{
+  display: block;
+  float: left;
+  font-size: 12px;
+  margin: 0px 50px 0px 8px;
+  position: relative;
+}
+
+#selected-copy h3 a:link{
+  font-weight: bold;
+	text-decoration: none;
+}
+
+#selected-copy h3 a:hover{
+  color: #000;
+  border-bottom: 1px dashed #000;
+}
+
+#selected-copy .thumb {
+	
+}
+
+#selected-copy .thumb:hover {
+  -webkit-transform: scale(1.03);
+  -moz-transform: scale(1.03);
+  transform: scale(1.03);
+}
+
+.col-9 {
+width:320px;
+/*width:290px;*/
+}
+
+.body-block {
+border-top:2px solid #E3E3E3;
+display:block;
+margin-bottom:20px;
+padding-top:10px;
+}
+
+/* --- footer --- */
+#footer {
+	display: block;
+	float: left;
+	background-color: #E9E9E9;
+	margin: 0px 0px 0px 0px;
+	height: 103px;
+	width: 960px;
+	  -moz-box-shadow: 0px 10px 15px #888888; /* FF3.5+ */
+  -webkit-box-shadow: 0px 10px 15px #888888; /* Saf3.0+, Chrome */
+          box-shadow: 0px 10px 15px #888888; /* Opera 10.5, IE 9.0 */
+}
+
+#footer p{
+  /*display: block;*/
+  /*float: left;*/
+  font-size: 12px;
+  margin: 25px 0px 0px 60px;
+  position: relative;
+}
+
+#footer a:link{
+  color: #653817;
+  font-weight: bold;
+	text-decoration: none;
+}
+
+#footer a:hover{
+  color: #000;
+  border-bottom: 1px dashed #000;
+}

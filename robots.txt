@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /_fonts/
+Disallow: /includes/
+Disallow: /js/
+Disallow: /styles/
+Disallow: /index-lightbox.html
